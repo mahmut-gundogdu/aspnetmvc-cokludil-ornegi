@@ -1,0 +1,33 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <h1>    Hello World</h1>
+        <p>[[[hello world description x]]]</p>
+        <h3>[[[Türkçe karakter: ş ü ö İ ğ ı ç ///hello darknes]]]</h3>
+
+
+        <div id="content">
+            <h2>[[[Welcome to my web app!]]]</h2>
+            <h3><span>[[[Amazing slogan here]]]</span></h3>
+            <p>[[[Ad copy that would make Hiten Shah fall off his chair!]]]</p>
+            <span class="button" title="[[[Click to see plans and pricing]]]">
+                <a href="@Url.Action("Plans", "Home", new { area = "" })">
+                    <strong>[[[SEE PLANS & PRICING]]]</strong>
+                    <span>[[[Free unicorn with all plans!]]]</span>
+                </a>
+            </span>
+        </div>
+    </div>
+</body>
+</html>
